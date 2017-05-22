@@ -13,3 +13,7 @@ end
 get '/secret' do
   'the secret page!'
 end
+
+get '/cat' do
+  '<img src="http://bit.ly/1eze8aE" alt="cat_face" style="border: dashed red;">'
+end
