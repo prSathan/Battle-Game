@@ -15,5 +15,5 @@ get '/secret' do
 end
 
 get '/cat' do
-  '<img src="http://bit.ly/1eze8aE" alt="cat_face" style="border: dashed red;">'
+  erb(:index)
 end
