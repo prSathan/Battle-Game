@@ -21,6 +21,11 @@ class Battle < Sinatra::Base
    erb(:play)
  end
 
+ post '/hitpoints' do
+   @player1_points = params[:points1]
+   @player2_points = 'Points: 100'
+ end
+
   # run! if app_file == $0
 
 end
