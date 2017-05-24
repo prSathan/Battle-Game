@@ -26,6 +26,11 @@ class Battle < Sinatra::Base
    @player2_points = 'Points: 100'
  end
 
+ post '/attack' do
+   @player_2 = session[:player_2]
+   erb(:attack)
+ end
+
   # run! if app_file == $0
 
 end
