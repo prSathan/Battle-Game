@@ -3,6 +3,7 @@ require 'sinatra/base'
 class Battle < Sinatra::Base
 
   enable :sessions
+  set :session_secret, "secret-session"
 
   get '/' do
     erb(:index)
