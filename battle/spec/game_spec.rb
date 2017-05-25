@@ -33,4 +33,10 @@ describe Game do
     end
   end
 
+  describe '#switch' do
+    it 'switches the active player' do
+      expect{ game.switch }.to change{ game.active_player }.from(game.player_1).to(game.player_2)
+    end
+  end
+
 end

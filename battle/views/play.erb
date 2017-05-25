@@ -1,9 +1,9 @@
 <form action="/hitpoints" method="post">
-  <input type="submit" value="Opponent Hitpoints">
+  <input type="submit" value="<%= $game.inactive_player.name %>'s Hitpoints">
 </form>
 
 <form action="/attack" method="get">
-  <input type="submit" value="ATTACK!">
+  <input type="submit" value="Attack <%= $game.inactive_player.name %>!!!">
 </form>
 
-<%= $game.player_1.name %> vs <%= $game.player_2.name %>
+<%= $game.active_player.name %> vs <%= $game.inactive_player.name %>

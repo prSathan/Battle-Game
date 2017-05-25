@@ -25,8 +25,13 @@ class Battle < Sinatra::Base
  end
 
  get '/attack' do
-   $game.attack($game.player_2)
+   $game.attack($game.inactive_player)
    erb(:attack)
+ end
+
+ post '/switch' do
+   $game.switch
+   redirect to('/play')
  end
 
   # run! if app_file == $0
