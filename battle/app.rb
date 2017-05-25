@@ -23,13 +23,15 @@ class Battle < Sinatra::Base
  end
 
  post '/hitpoints' do
-   @player1_points = 'Points: 100'
-   @player2_points = 'Points: 100'
+   @player_1_points = $player_1.hp
+   @player_2_points = $player_2.hp
+   erb(:hitpoints)
  end
 
  post '/attack' do
-   @player_1_name = $player_1.name
-   @player_2_name = $player_2.name
+   @player_1 = $player_1
+   @player_2 = $player_2
+   @player_1.attack(@player_2)
    erb(:attack)
  end
 
