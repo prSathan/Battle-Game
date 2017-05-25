@@ -1,15 +1,13 @@
 require 'game'
 
 describe Game do
-  subject(:game) { described_class.new }
-  let(:player_1) { double :player }
-  let(:player_2) { double :player }
+  subject(:game) { described_class.new('p1', 'p2') }
 
-describe '#attack' do
-  it 'attacks a player' do
-    expect(player_2).to receive(:reduce_hp)
-    game.attack(player_2)
+  describe '#attack' do
+    it 'attacks a player' do
+      expect(game.player_2).to receive(:reduce_hp)
+      game.attack(game.player_2)
+    end
   end
-end
 
 end
