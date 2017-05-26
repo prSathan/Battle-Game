@@ -6,4 +6,11 @@ feature 'Testing points' do
       click_button("Bob's Hitpoints")
       expect(page).to have_content 'Points: 100'
     end
+
+    # scenario "Allow a player to see their own hitpoints" do
+    #   sign_in_and_play
+    #   click_button("Bob's Hitpoints")
+    #   expect(page).to have_content 'Points: 100'
+    # end
+    #
 end
