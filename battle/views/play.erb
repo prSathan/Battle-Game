@@ -1,9 +1,16 @@
-<form action="/hitpoints" method="post">
-  <input type="submit" value="Opponent Hitpoints">
-</form>
+<h1> <%= $game.active_player.name %> vs <%= $game.inactive_player.name %> </h1>
+
+<%= $game.player_1.name %>'s Hit Points: <%= $game.player_1.hp %><br>
+<%= $game.player_2.name %>'s Hit Points: <%= $game.player_2.hp %><br>
+<br>
+
+<%= $game.active_player.name %>'s turn<br>
+<br>
+
+<!-- <form action="/hitpoints" method="get">
+  <input type="submit" value="Hit Points">
+</form> -->
 
 <form action="/attack" method="get">
   <input type="submit" value="ATTACK!">
 </form>
-
-<%= $game.player_1.name %> vs <%= $game.player_2.name %>

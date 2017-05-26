@@ -1,5 +1,9 @@
-You have successfully attacked <%= $game.player_2.name %>
+You have successfully attacked <%= $game.inactive_player.name %>
 
-<form action="/hitpoints" method="post">
-  <input type="submit" value="Opponent Hitpoints">
+<!-- <form action="/hitpoints" method="get">
+  <input type="submit" value="<%= $game.inactive_player.name %>'s Hitpoints">
+</form> -->
+
+<form action="/switch" method="post">
+  <input type="submit" value="<%= $game.inactive_player.name %>'s Turn">
 </form>
