@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/colinscally/Projects/Battle/Battle2/intro_to_the_web_thursday/battle/app.rb": [
+      "/Users/prabusathan/Projects/intro_to_the_web_friday/intro_to_the_web_thursday/battle/app.rb": [
         1,
         1,
         1,
@@ -37,15 +37,15 @@
         null,
         null
       ],
-      "/Users/colinscally/Projects/Battle/Battle2/intro_to_the_web_thursday/battle/lib/player.rb": [
+      "/Users/prabusathan/Projects/intro_to_the_web_friday/intro_to_the_web_thursday/battle/lib/player.rb": [
         null,
         1,
         null,
         1,
         null,
         1,
-        10,
-        10,
+        20,
+        20,
         null,
         null,
         1,
@@ -54,7 +54,7 @@
         null,
         null
       ],
-      "/Users/colinscally/Projects/Battle/Battle2/intro_to_the_web_thursday/battle/lib/game.rb": [
+      "/Users/prabusathan/Projects/intro_to_the_web_friday/intro_to_the_web_thursday/battle/lib/game.rb": [
         1,
         null,
         1,
@@ -62,46 +62,22 @@
         1,
         null,
         1,
-        4,
-        4,
+        9,
+        9,
         null,
         null,
         1,
-        2,
-        null,
-        null,
-        null
-      ],
-      "/Users/colinscally/Projects/Battle/Battle2/intro_to_the_web_thursday/battle/spec/features/attack_players_spec.rb": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null
-      ],
-      "/Users/colinscally/Projects/Battle/Battle2/intro_to_the_web_thursday/battle/spec/features/enter_names_spec.rb": [
-        null,
-        null,
-        1,
-        null,
-        1,
-        1,
-        1,
-        null,
+        3,
         null,
         null,
         null
       ],
-      "/Users/colinscally/Projects/Battle/Battle2/intro_to_the_web_thursday/battle/spec/features/hit_points_spec.rb": [
+      "/Users/prabusathan/Projects/intro_to_the_web_friday/intro_to_the_web_thursday/battle/spec/features/attack_players_spec.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
         null,
         null,
         1,
@@ -112,45 +88,69 @@
         null,
         null
       ],
-      "/Users/colinscally/Projects/Battle/Battle2/intro_to_the_web_thursday/battle/spec/game_spec.rb": [
+      "/Users/prabusathan/Projects/intro_to_the_web_friday/intro_to_the_web_thursday/battle/spec/features/enter_names_spec.rb": [
+        null,
+        null,
         1,
         null,
         1,
         1,
         1,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
         null,
         null,
         null,
         null
       ],
-      "/Users/colinscally/Projects/Battle/Battle2/intro_to_the_web_thursday/battle/spec/player_spec.rb": [
+      "/Users/prabusathan/Projects/intro_to_the_web_friday/intro_to_the_web_thursday/battle/spec/features/hit_points_spec.rb": [
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/prabusathan/Projects/intro_to_the_web_friday/intro_to_the_web_thursday/battle/spec/game_spec.rb": [
+        1,
+        null,
+        1,
+        6,
+        6,
+        6,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/prabusathan/Projects/intro_to_the_web_friday/intro_to_the_web_thursday/battle/spec/player_spec.rb": [
         1,
         null,
         1,
@@ -168,6 +168,6 @@
         null
       ]
     },
-    "timestamp": 1495724944
+    "timestamp": 1495790594
   }
 }
